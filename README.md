@@ -29,7 +29,17 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 ## Summary Statistics on Suspension Coils
 
 
+* Summary statistics of the entire dataset:
+
+
+
 <img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="750" height="130" />
+
+
+
+
+* Summary statistics across the three production lots:
+
 
 
 <img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/lot_summary.png" width="750" height="130" />
@@ -38,3 +48,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 * The specification for the company suspension coils dictate that the Variance of the suspension coils must not exceed 100 pounds per square inch. 
 
 * When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that the variance of Lot3 in comparison with the other two lots is greater than 100 pounds per square inch.  Lots 1 and 2 have pretty similar variance.
+
+
+
+
