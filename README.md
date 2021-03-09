@@ -2,7 +2,13 @@
 
 ## Linear Regression to Predict Performance MPG (Miles Per Gallon)
 
+### In the next image we can visualize the summary statistics of our Multiple Linear Regression model:
 
+
+<img "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png">
+
+
+### Interpretation of summary statistics:
 
 * According to our results, ground clearance and vehicle lenght (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on vehicle performance (mpg). 
 
