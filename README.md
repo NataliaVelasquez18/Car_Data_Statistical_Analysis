@@ -23,3 +23,12 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 * Although the ground clearance and vehicle length have a significant impact on vehicle performance (mpg), this linear model is not ideal. Our intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model. To accurately predict vehicle performance, we need to use a more robust model.
+
+
+
+
+<img src= “https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png” width=“350" height=“150" />
+
+
+<img src=“https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/lot_summary.png” width=“350" height=“250" />
+
