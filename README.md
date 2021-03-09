@@ -50,5 +50,16 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 * When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that the variance of Lot3 in comparison with the other two lots is greater than 100 pounds per square inch.  Lots 1 and 2 have pretty similar variance.
 
 
+## T-Tests on Suspension Coils
+
+
+
+
+
+
+
+
+
+
 
 
