@@ -14,7 +14,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
-### Interpretation of summary statistics:
+## Interpretation of summary statistics:
 
 * According to our results, ground clearance and vehicle lenght (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on vehicle performance (mpg). 
 
