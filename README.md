@@ -2,10 +2,16 @@
 
 ## Linear Regression to Predict Performance MPG (Miles Per Gallon)
 
-### In the next image we can visualize the summary statistics of our Multiple Linear Regression model:
+
+In the next image we can visualize the summary statistics of our Multiple Linear Regression model:
+
+
+
 
 
 <img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png" />
+
+
 
 
 ### Interpretation of summary statistics:
