@@ -33,7 +33,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="550" height="100" />
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="450" height="100" />
 
 
 
@@ -42,7 +42,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/lot_summary.png" width="750" height="130" />
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/lot_summary.png" width="550" height="130" />
 
 
 * The specification for the company suspension coils dictate that the Variance of the suspension coils must not exceed 100 pounds per square inch. 
