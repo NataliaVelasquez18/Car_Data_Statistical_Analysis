@@ -53,6 +53,25 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 ## T-Tests on Suspension Coils
 
 
+In the following image, we can observe the results of the t-test performed on each Lot compared to the Population:
+
+
+
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/t-test.png" width="750" height="650" />
+
+
+
+Assuming a significance level of 5%. When determining if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.  We obtained the following results:
+
+Lot 1 vs Population: our p-value of 0.00000000001568 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
+
+Lot 2 vs Population: our p-value of 0.0005911 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
+
+Lot 3 Population: our p-value of 0.1589 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+
+
+
 
 
 
