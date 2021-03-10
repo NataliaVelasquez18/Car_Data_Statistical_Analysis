@@ -9,7 +9,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png" width="750" height="650" />
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png" width="550" height="450" />
 
 
 
@@ -57,7 +57,7 @@ In the following image, we can observe the results of the t-test performed on ea
 
 
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/t-test.png" width="450" height="350" />
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/t-test.png" width="450" height="550" />
 
 
 
