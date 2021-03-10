@@ -57,7 +57,7 @@ In the following image, we can observe the results of the t-test performed on ea
 
 
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/t-test.png" width="750" height="650" />
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/t-test.png" width="450" height="350" />
 
 
 
