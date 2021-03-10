@@ -33,7 +33,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="750" height="130" />
+<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="550" height="100" />
 
 
 
