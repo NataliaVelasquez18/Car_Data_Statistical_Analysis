@@ -70,7 +70,7 @@ Lot 2 vs Population: our p-value of 0.0005911 is below our significance level. T
 Lot 3 Population: our p-value of 0.1589 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 
-
+## Study Design: MechaCar vs Competition
 
 
 
