@@ -89,29 +89,12 @@ If we would like to perform a formal statistical study that can quantify how our
 
 6. Hypothesis Testing:
 
-We need to evaluate each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.  The chi-squared test is used to compare the distribution of frequencies across two groups (car maker A and car maker B).  First we need to build a contingency table using R as follows:
-
-``
-
-
-
-``
+We need to evaluate each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.  The chi-squared test is used to compare the distribution of frequencies across two groups (car maker A and car maker B).  
 
 7. Data needed: 
 
-We will need to tabulate the results of the survey.  The following graph represent an example of how the results should be tabulated for the 10,000 respondents (Participant ID).
+We will need to tabulate the results of the survey for the 10,000 respondents. Brand A and Brand B are columns and the rows are the metrics.  Each value can only be zero or 1.
 
-8. Hypothesis testing: 
-
-
-
-and find the requency for Brand A and Brand B for each one of the attributes or metrics.  Using R we will 
-
-#For example, if we want to test whether there is a statistical difference in the distributions of vehicle class across 1999 and 2008 from our mpg dataset, we would first need to build our contingency table as follows
-table(mpg$class,mpg$year) #generate contingency table
-
-tbl <- table(mpg$class,mpg$year) #generate contingency table
-chisq.test(tbl) #compare categorical distributions
 
 
 
