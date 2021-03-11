@@ -63,7 +63,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 * The specification for the company suspension coils dictate that the Variance of the suspension coils must not exceed 100 pounds per square inch. 
 
-* When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that the variance of Lot3 in comparison with the other two lots is greater than 100 pounds per square inch.  Lots 1 and 2 have pretty similar variance.
+* When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that only the variance of Lot3 is greater than 100 pounds per square inch.
 
 
 ## T-Tests on Suspension Coils
@@ -113,6 +113,6 @@ We will need to tabulate the results of the survey for the 10,000 respondents. B
 
 ## Recommendations:
 
-* We need more data to be able to create a more robust model that can help us preduct car performance.  New variables need to be incorporated to analyze if besides vehicle lenght and ground clearance there are other variables that highly impact performance.
+* We need more data to be able to create a more robust model that can help us preduct car performance.  The dataset provided only had 50 observations. Also, new variables need to be incorporated to analyze if besides vehicle lenght and ground clearance there are other variables that highly impact performance.
 
-
+* It is recommended to re-sample production lots and increase sample size.  Our study showed that despite Lot3 having a similar distribution than the population, it's variance is above the required limit.
