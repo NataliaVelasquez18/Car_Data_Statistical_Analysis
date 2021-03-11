@@ -111,6 +111,8 @@ We need to evaluate each metric: Is there a difference in frequency between a pa
 
 We will need to tabulate the results of the survey for the 10,000 respondents. Brand A and Brand B are columns and the rows are the metrics.  Each value can only be zero or 1.
 
+## Recommendations:
 
+* We need more data to be able to create a more robust model that can help us preduct car performance.  New variables need to be incorporated to analyze if besides vehicle lenght and ground clearance there are other variables that highly impact performance.
 
 
