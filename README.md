@@ -89,14 +89,11 @@ If we would like to perform a formal statistical study that can quantify how our
 
 6. Hypothesis Testing:
 
-We need to evaluate each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.  The chi-squared test is used to compare the distribution of frequencies across two groups (car maker A and car maker B).  
+We need to evaluate each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.  The chi-squared test is used to compare the distribution of frequencies across two groups (car maker A and car maker B).  With the P-Value and the interval of confidence we will reject or accept the hypothesis.
 
 7. Data needed: 
 
 We will need to tabulate the results of the survey for the 10,000 respondents. Brand A and Brand B are columns and the rows are the metrics.  Each value can only be zero or 1.
-
-
-
 
 
 
