@@ -80,22 +80,38 @@ If we would like to perform a formal statistical study that can quantify how our
 
 3. Define metrics that are important for consumers when evaluating cars.  For example: safety rating, city fuel efficiency, horse power, highway fuel efficiency, mainteinance cost, vehicle price, green score, awards and accolades, sound system, transmision type.
 
-4. Design a survey to ask each participant to rate each metric in relation if they prefer brand A, brand B, or if they have no preference. 
+4. Design a survey to ask each participant to rate each metric in relation if they prefer brand A, brand B. 
 
 5. Define an Hypothesis:  For each metric the hypothesis will be:
 
-#H0 : There is no difference in frequency distribution between participants preferring brand A and brand B.
-#Ha : There is a difference in frequency distribution between participants preferring brand A and brand B.
+* #H0 : There is no difference in frequency distribution between participants preferring brand A and brand B.
+* #Ha : There is a difference in frequency distribution between participants preferring brand A and brand B.
 
-6. Hypothesis testing:
+6. Hypothesis Testing:
 
-To test each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.
+We need to evaluate each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.  The chi-squared test is used to compare the distribution of frequencies across two groups (car maker A and car maker B).  First we need to build a contingency table using R as follows:
 
-
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+``
 
 
+
+``
+
+7. Data needed: 
+
+We will need to tabulate the results of the survey.  The following graph represent an example of how the results should be tabulated for the 10,000 respondents (Participant ID).
+
+8. Hypothesis testing: 
+
+
+
+and find the requency for Brand A and Brand B for each one of the attributes or metrics.  Using R we will 
+
+#For example, if we want to test whether there is a statistical difference in the distributions of vehicle class across 1999 and 2008 from our mpg dataset, we would first need to build our contingency table as follows
+table(mpg$class,mpg$year) #generate contingency table
+
+tbl <- table(mpg$class,mpg$year) #generate contingency table
+chisq.test(tbl) #compare categorical distributions
 
 
 
