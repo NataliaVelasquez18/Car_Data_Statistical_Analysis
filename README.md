@@ -15,6 +15,10 @@ We have two small datasets in csv format:
 * The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
 
 
+## Executive Summary:
+
+* Vehicle lenght and ground clearance showed to have a significant impact on vehicle performance.  However, they are not the only predictors of performance.  New variables need to be incorporated in the study in order to build an acurate model.  
+
 
 ## Linear Regression to Predict Performance MPG (Miles Per Gallon)
 
