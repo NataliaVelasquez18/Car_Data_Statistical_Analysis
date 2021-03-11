@@ -72,8 +72,32 @@ Lot 3 Population: our p-value of 0.1589 is above our significance level. Therefo
 
 ## Study Design: MechaCar vs Competition
 
+If we would like to perform a formal statistical study that can quantify how our company performs against the competition these are the steps I recommend implementing:
+
+1. Select a random sample of the population to participate in the study (Exclude children below 16 years old): Select no more than 10,000 participants who live in a city that has a high demand for the two car makers.
+
+2. Select one type of car that is similar in both brands to evaluate, for example: Van, truck, hatchback.
+
+3. Define metrics that are important for consumers when evaluating cars.  For example: safety rating, city fuel efficiency, horse power, highway fuel efficiency, mainteinance cost, vehicle price, green score, awards and accolades, sound system, transmision type.
+
+4. Design a survey to ask each participant to rate each metric in relation if they prefer brand A, brand B, or if they have no preference. 
+
+5. Define an Hypothesis:  For each metric the hypothesis will be:
+
+#H0 : There is no difference in frequency distribution between participants preferring brand A and brand B.
+#Ha : There is a difference in frequency distribution between participants preferring brand A and brand B.
+
+6. Hypothesis testing:
+
+To test each metric: Is there a difference in frequency between a participant selecting car maker A and car maker B? We will perform a Chi-squared test.
 
 
+Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+In your description, address the following questions:
+What metric or metrics are you going to test?
+What is the null hypothesis or alternative hypothesis?
+What statistical test would you use to test the hypothesis? And why?
+What data is needed to run the statistical test?
 
 
 
