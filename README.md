@@ -2,7 +2,19 @@
 
 ## Purpose
 
-The purpose of this analysis is to gain insights from a specific car maker performance data given certain attributes.  Also it is analyzed the difference in production lots.  These two studies contribute to learning more about car attributes that highly influence performance to incorporate the insights into the car design.  Also, the knowledge obtained fom learning more about the uniformity of production across lots will contribute to the improvement in production quality. Finally, a study design is outlined for further analysis in regards of the consumer preferences of the brand in comparison with the competition.
+The purpose of this analysis is to gain insights from a specific car maker performance data given certain attributes.  Also it is analyzed the difference in production lots.  These two studies contribute to learning more about car attributes that highly influence performance to incorporate the insights into the car design.  Also, the knowledge obtained fom learning more about the uniformity of production across lots will contribute to test quality. Finally, a study design is outlined for further analysis in regards of the consumer preferences of the brand in comparison with the competition.
+
+## Data
+
+We have two small datasets in csv format:
+
+* The firs dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance .
+
+* The second dataset [Suspension_Coil.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Suspension_Coil.csv) contains information about three different production lots of suspension coils and their pounds per square inch.
+
+* The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
+
+
 
 ## Linear Regression to Predict Performance MPG (Miles Per Gallon)
 
