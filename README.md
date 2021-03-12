@@ -1,8 +1,13 @@
+
 # Car Data Statistical Analysis
+
+---
 
 ## Purpose
 
 The purpose of this analysis is to gain insights from a specific car maker performance data given certain attributes.  Also it is analyzed the difference in production lots.  These two studies contribute to learning more about car attributes that highly influence performance to incorporate the insights into the car design.  Also, the knowledge obtained fom learning more about the uniformity of production across lots will contribute to test quality. Finally, a study design is outlined for further analysis in regards of the consumer preferences of the brand in comparison with the competition.
+
+---
 
 ## Data
 
@@ -14,11 +19,13 @@ We have two small datasets in csv format:
 
 * The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
 
+---
 
 ## Executive Summary:
 
 * Vehicle lenght and ground clearance showed to have a significant impact on vehicle performance.  However, they are not the only predictors of performance.  New variables need to be incorporated in the study in order to build an acurate model.  
 
+---
 
 ## Linear Regression to Predict Performance MPG (Miles Per Gallon)
 
@@ -33,6 +40,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
+---
 
 ## Interpretation of summary statistics:
 
@@ -45,6 +53,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 * Although the ground clearance and vehicle length have a significant impact on vehicle performance (mpg), this linear model is not ideal. Our intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model. To accurately predict vehicle performance, we need to use a more robust model.
 
 
+---
 
 ## Summary Statistics on Suspension Coils
 
@@ -70,6 +79,8 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 * When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that only the variance of Lot3 is greater than 100 pounds per square inch.
 
 
+---
+
 ## T-Tests on Suspension Coils
 
 
@@ -89,6 +100,8 @@ Lot 2 vs Population: our p-value of 0.0005911 is below our significance level. T
 
 Lot 3 Population: our p-value of 0.1589 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
+
+---
 
 ## Study Design: MechaCar vs Competition
 
@@ -114,6 +127,9 @@ We need to evaluate each metric: Is there a difference in frequency between a pa
 7. Data needed: 
 
 We will need to tabulate the results of the survey for the 10,000 respondents. Brand A and Brand B are columns and the rows are the metrics.  Each value can only be zero or 1.
+
+
+---
 
 ## Recommendations:
 
