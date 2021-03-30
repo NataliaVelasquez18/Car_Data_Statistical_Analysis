@@ -5,7 +5,7 @@
 
 ## Purpose
 
-The purpose of this analysis is to gain insights from a specific car maker performance data given certain attributes.  Also it is analyzed the difference in production lots.  These two studies contribute to learning more about car attributes that highly influence performance to incorporate the insights into the car design.  Also, the knowledge obtained fom learning more about the uniformity of production across lots will contribute to test quality. Finally, a study design is outlined for further analysis in regards of the consumer preferences of the brand in comparison with the competition.
+The purpose of this analysis is to predict car performance (mpg) based on certain attributes. A car manufacturer will use the results from the analysis to improve the manufacturing process with the objective of having the best performing cars in the market.
 
 ---
 
