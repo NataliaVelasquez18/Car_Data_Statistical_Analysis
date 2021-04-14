@@ -1,23 +1,31 @@
 
-# Car Data Statistical Analysis using R
+# Predicting Car Performance: Statistical Analysis using R
 
 ---
+
+## Business Problem
+
+Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market, has seen an increasing decline in sales in the last three years. According to the last three years, it is expected to see a decline in revenue year over year of 8-10%.  After conducting consumer surveys, the most important characteristic that consumers evaluate when purchasing a vehicle is performance measured in miles per gallon (mpg).  Also, the company has seen an increase in customer warranty complaints for car suspension.
 
 ## Purpose
 
-The purpose of this analysis is to predict car performance (mpg) based on certain attributes. A car manufacturer will use the results from the analysis to improve the manufacturing process with the objective of having the best performing cars in the market.
+The purpose of this analysis is to help Mechacar's Manufacturing team to understand what car features impact car performance the most.   The manufacturing team will incorporate the insights into the manufacturing process aiming to produce the best performing cars in the market, rebrand the company image, and regain market share.  Additionally, some car suspension production lots will be analyzed for quality purposes to determine whether they are aligned with the factory requirements.
 
 ---
 
-## Data
+## Overview of Approach
 
-We have two small datasets in csv format:
+There are two datasets in csv format:
 
-* The firs dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance .
+* The first dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance . Car attributes are vehicle lenght, vehicle weight, spolier angle, ground clearance, and All-wheel-drive.  Car performance is measured in mpg (miles per gallon).
 
-* The second dataset [Suspension_Coil.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Suspension_Coil.csv) contains information about three different production lots of suspension coils and their pounds per square inch.
+* The second dataset [Suspension_Coil.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Suspension_Coil.csv) contains information about three different production lots of suspension coils and their pounds per square inch (PSI). The columns are: VehicleID, Lot#, PSI
 
 * The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
+
+* Multiple linear regression is performed in the first dataset using RStudio.  P-value and significance level are used as metrics to assess the impact of car features in car performance.
+
+* T-test analysis is performed on the second dataset to assess production quality among the three production lots and determine which lot is statistically different from the entire production data.
 
 ---
 
@@ -25,9 +33,14 @@ We have two small datasets in csv format:
 
 * Vehicle lenght and ground clearance showed to have a significant impact on vehicle performance.  However, they are not the only predictors of performance.  New variables need to be incorporated in the study in order to build an acurate model.  
 
+* It is recommended to re-sample production lots and increase sample size.  Our study showed that despite Lot3 having a similar distribution than the population, it's variance is above the required limit.
+
 ---
 
-## Linear Regression to Predict Performance MPG (Miles Per Gallon)
+## Analysis on Car performance MPG:
+
+
+### Linear Regression
 
 
 In the next image we can visualize the summary statistics of our Multiple Linear Regression model:
@@ -40,14 +53,13 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
----
 
-## Interpretation of summary statistics:
+### Interpretation of summary statistics:
 
 * According to our results, ground clearance and vehicle lenght (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and ground clearance have a significant impact on vehicle performance (mpg). 
 
 
-* The P-value of our linear regression analysis is 2.277e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+* The P-value of our linear regression analysis is 2.277e-11, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.  In other words, changes in ground clearance and vehicle lenght impact car performance measured in miles per gallon.
 
 
 * Although the ground clearance and vehicle length have a significant impact on vehicle performance (mpg), this linear model is not ideal. Our intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model. To accurately predict vehicle performance, we need to use a more robust model.
@@ -55,7 +67,10 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 ---
 
-## Summary Statistics on Suspension Coils
+## Suspension Coils Analysis:
+
+
+### Summary statistics
 
 
 * Summary statistics of the entire dataset:
@@ -63,7 +78,6 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 <img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="450" height="100" />
-
 
 
 
@@ -79,9 +93,8 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 * When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that only the variance of Lot3 is greater than 100 pounds per square inch.
 
 
----
 
-## T-Tests on Suspension Coils
+### T-Tests on Suspension Coils
 
 
 In the following image, we can observe the results of the t-test performed on each Lot compared to the Population:
