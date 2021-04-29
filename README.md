@@ -5,7 +5,7 @@
 
 ## Business Problem
 
-Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market.  It has experienced a yearly 8%-10% decline in sales in the last three consecutive years.  After conducting consumer surveys around the country, the most important characteristic that consumers evaluate when purchasing a vehicle is performance measured in miles per gallon (mpg).
+Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market.  It has experienced a yearly 8%-10% decline in sales in the last three consecutive years.  After conducting consumer surveys around the country, the most important characteristic that consumers evaluate when purchasing a vehicle is performance measured in miles per gallon (mpg).  There are a few car manufacturers who advertise higher performing vehicles than Mechacar's.
 
 ## Purpose
 
@@ -15,9 +15,9 @@ The purpose of this analysis is to help Mechacar's Manufacturing team to underst
 
 ## Overview of Approach
 
-There are two datasets in csv format:
+There is a dataset in csv format:
 
-* The first dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance . Car attributes are vehicle lenght, vehicle weight, spolier angle, ground clearance, and All-wheel-drive.  Car performance is measured in mpg (miles per gallon).
+* The dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance . Car attributes are vehicle lenght, vehicle weight, spolier angle, ground clearance, and All-wheel-drive.  Car performance is measured in mpg (miles per gallon).
 
 * The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
 
