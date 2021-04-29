@@ -5,11 +5,11 @@
 
 ## Business Problem
 
-Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market, has seen an increasing decline in sales in the last three years. According to the last three years, it is expected to see a decline in revenue year over year of 8-10%.  After conducting consumer surveys, the most important characteristic that consumers evaluate when purchasing a vehicle is performance measured in miles per gallon (mpg).  Also, the company has seen an increase in customer warranty complaints for car suspension.
+Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market.  It has experienced a yearly 8%-10% decline in sales in the last three consecutive years.  After conducting consumer surveys around the country, the most important characteristic that consumers evaluate when purchasing a vehicle is performance measured in miles per gallon (mpg).
 
 ## Purpose
 
-The purpose of this analysis is to help Mechacar's Manufacturing team to understand what car features impact car performance the most.   The manufacturing team will incorporate the insights into the manufacturing process aiming to produce the best performing cars in the market, rebrand the company image, and regain market share.  Additionally, some car suspension production lots will be analyzed for quality purposes to determine whether they are aligned with the factory requirements.
+The purpose of this analysis is to help Mechacar's Manufacturing team to understand what car features impact car performance the most.   The manufacturing team will incorporate the insights into the manufacturing process aiming to produce the best performing cars in the market, rebrand the company image, and regain market share.
 
 ---
 
@@ -19,21 +19,15 @@ There are two datasets in csv format:
 
 * The first dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance . Car attributes are vehicle lenght, vehicle weight, spolier angle, ground clearance, and All-wheel-drive.  Car performance is measured in mpg (miles per gallon).
 
-* The second dataset [Suspension_Coil.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Suspension_Coil.csv) contains information about three different production lots of suspension coils and their pounds per square inch (PSI). The columns are: VehicleID, Lot#, PSI
-
 * The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
 
-* Multiple linear regression is performed in the first dataset using RStudio.  P-value and significance level are used as metrics to assess the impact of car features in car performance.
-
-* T-test analysis is performed on the second dataset to assess production quality among the three production lots and determine which lot is statistically different from the entire production data.
+* Multiple linear regression is performed in the dataset using RStudio.  P-value and significance level are used as metrics to assess the impact of car features in car performance.
 
 ---
 
 ## Executive Summary:
 
-* Vehicle lenght and ground clearance showed to have a significant impact on vehicle performance.  However, they are not the only predictors of performance.  New variables need to be incorporated in the study in order to build an acurate model.  
-
-* It is recommended to re-sample production lots and increase sample size.  Our study showed that despite Lot3 having a similar distribution than the population, it's variance is above the required limit.
+* Vehicle lenght and ground clearance showed to have a significant impact on vehicle performance.  However, they are not the only predictors of performance.  New variables need to be incorporated in the study in order to build a more acurate model.  
 
 ---
 
@@ -48,9 +42,7 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 
-
 <img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/multiple_linear_regression_mpg.png" width="450" height="350" />
-
 
 
 
@@ -63,55 +55,6 @@ In the next image we can visualize the summary statistics of our Multiple Linear
 
 
 * Although the ground clearance and vehicle length have a significant impact on vehicle performance (mpg), this linear model is not ideal. Our intercept is statistically significant, it means there are other variables and factors that contribute to the variation in mpg that have not been included in our model. To accurately predict vehicle performance, we need to use a more robust model.
-
-
----
-
-## Suspension Coils Analysis:
-
-
-### Summary statistics
-
-
-* Summary statistics of the entire dataset:
-
-
-
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/total_summary.png" width="450" height="100" />
-
-
-
-* Summary statistics across the three production lots:
-
-
-
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/lot_summary.png" width="550" height="130" />
-
-
-* The specification for the company suspension coils dictate that the Variance of the suspension coils must not exceed 100 pounds per square inch. 
-
-* When observing the variance of suspension coils across the three lots analyzed.  We can clearly see that only the variance of Lot3 is greater than 100 pounds per square inch.
-
-
-
-### T-Tests on Suspension Coils
-
-
-In the following image, we can observe the results of the t-test performed on each Lot compared to the Population:
-
-
-
-<img src= "https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Screenshots/t-test.png" width="450" height="550" />
-
-
-
-Assuming a significance level of 5%. When determining if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.  We obtained the following results:
-
-Lot 1 vs Population: our p-value of 0.00000000001568 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
-
-Lot 2 vs Population: our p-value of 0.0005911 is below our significance level. Therefore, we have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically different.
-
-Lot 3 Population: our p-value of 0.1589 is above our significance level. Therefore, we do not have sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
 
 
 ---
@@ -147,5 +90,3 @@ We will need to tabulate the results of the survey for the 10,000 respondents. B
 ## Recommendations:
 
 * We need more data to be able to create a more robust model that can help us preduct car performance.  The dataset provided only had 50 observations. Also, new variables need to be incorporated to analyze if besides vehicle lenght and ground clearance there are other variables that highly impact performance.
-
-* It is recommended to re-sample production lots and increase sample size.  Our study showed that despite Lot3 having a similar distribution than the population, it's variance is above the required limit.
