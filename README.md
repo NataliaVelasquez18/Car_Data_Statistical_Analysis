@@ -23,6 +23,8 @@ There is a dataset in csv format:
 
 * Multiple linear regression is performed in the dataset using RStudio.  P-value and significance level are used as metrics to assess the impact of car features in car performance.
 
+* A study design about Mechacar vs the competition is outlined at the end for future study. 
+
 ---
 
 ## Executive Summary:
