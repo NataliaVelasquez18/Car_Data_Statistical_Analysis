@@ -17,7 +17,7 @@ The purpose of this analysis is to help Mechacar's Manufacturing team to underst
 
 There is a dataset in csv format:
 
-* The dataset[MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance . Car attributes are vehicle lenght, vehicle weight, spolier angle, ground clearance, and All-wheel-drive.  Car performance is measured in mpg (miles per gallon).
+* The dataset [MechaCar_mpg.csv](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/MechaCar_mpg.csv) contains information about car attributes and car performance . Car attributes are vehicle lenght, vehicle weight, spolier angle, ground clearance, and All-wheel-drive.  Car performance is measured in mpg (miles per gallon).
 
 * The code used to perform the analysis is contained in [Car_Data.RScript.R](https://github.com/NataliaVelasquez18/Car_Data_Statistical_Analysis/blob/main/Car_Data.RScript.R)
 
