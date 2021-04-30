@@ -5,7 +5,7 @@
 
 ## Business Problem
 
-Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market.  It has experienced a yearly 8%-10% decline in sales in the last three consecutive years.  After conducting consumer surveys around the country, the most important characteristic that consumers evaluate when purchasing a vehicle is performance measured in miles per gallon (mpg).  There are a few car manufacturers who advertise higher performing vehicles than Mechacar's.
+Mechacar, a car manufacturer and distributor with more than 30 years of experience in the market.  It has experienced a yearly 8%-10% decline in sales in the last three consecutive years.  The competition has launched more efficient cars and the preferences of consumers have shifted towards being more green.
 
 ## Purpose
 
